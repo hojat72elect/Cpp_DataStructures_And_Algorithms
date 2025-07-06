@@ -6,11 +6,11 @@
 #include <ostream>
 
 class Monster {
-    int size;
     std::string name;
 
 protected:
     int power = 100;
+    int size;
 public:
     Monster(int size, const std::string &name);
 

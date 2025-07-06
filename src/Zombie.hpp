@@ -9,6 +9,8 @@ public:
     Zombie(int size, const std::string &name);
 
     void eat() override;
+
+    void fight();
 };
 
 
