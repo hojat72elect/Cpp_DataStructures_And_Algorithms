@@ -1,7 +1,3 @@
-//
-// Created by hojat on 7/5/2025.
-//
-
 #include "Monster.hpp"
 
 Monster::Monster(int size, const std::string &name) : size(size), name(name) {}
