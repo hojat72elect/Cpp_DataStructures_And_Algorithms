@@ -7,4 +7,6 @@ add_executable(Cpp_DataStructures_And_Algorithms src/main.cpp
         src/Monster.cpp
         src/Monster.hpp
         src/Zombie.cpp
-        src/Zombie.hpp)
+        src/Zombie.hpp
+        src/Ogre.cpp
+        src/Ogre.hpp)
