@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Cpp_DataStructures_And_Algorithms src/main.cpp
         src/Monster.cpp
-        src/Monster.hpp)
+        src/Monster.hpp
+        src/Zombie.cpp
+        src/Zombie.hpp)
