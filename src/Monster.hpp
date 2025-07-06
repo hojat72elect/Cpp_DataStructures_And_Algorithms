@@ -7,9 +7,10 @@
 
 class Monster {
     int size;
-    int power = 100;
     std::string name;
 
+protected:
+    int power = 100;
 public:
     Monster(int size, const std::string &name);
 
@@ -38,6 +39,8 @@ public:
     bool operator>=(const Monster &rhs) const;
 
     friend std::ostream &operator<<(std::ostream &os, const Monster &monster);
+
+    virtual void eat() = 0;
 };
 
 
